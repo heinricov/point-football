@@ -1,6 +1,6 @@
 "use client"
 
-import { SearchForm } from "@workspace/ui/dashboard/search-form.js"
+import { SearchForm } from "@workspace/ui/dashboard/search-form"
 import {
   Breadcrumb,
   BreadcrumbItem,

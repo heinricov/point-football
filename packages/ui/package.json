@@ -39,6 +39,7 @@
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
     "./dashboard/*": "./src/dashboard/*.tsx",
+    "./providers/*": "./src/providers/*.tsx",
     "./hooks/*": "./src/hooks/*.ts"
   }
 }

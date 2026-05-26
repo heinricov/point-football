@@ -2,10 +2,10 @@
 
 import * as React from "react"
 
-import { NavMain } from "@workspace/ui/dashboard/nav-main.js"
-import { NavProjects } from "@workspace/ui/dashboard/nav-projects.js"
-import { NavSecondary } from "@workspace/ui/dashboard/nav-secondary.js"
-import { NavUser } from "@workspace/ui/dashboard/nav-user.js"
+import { NavMain } from "@workspace/ui/dashboard/nav-main"
+import { NavProjects } from "@workspace/ui/dashboard/nav-projects"
+import { NavSecondary } from "@workspace/ui/dashboard/nav-secondary"
+import { NavUser } from "@workspace/ui/dashboard/nav-user"
 import {
   Sidebar,
   SidebarContent,

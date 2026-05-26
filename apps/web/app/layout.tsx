@@ -4,6 +4,8 @@ import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/providers/theme-provider"
 import { cn } from "@workspace/ui/lib/utils"
 
+import LayoutDashboard from "@workspace/ui/dashboard/layout-dashboard"
+
 const roboto = Roboto({ subsets: ["latin"], variable: "--font-sans" })
 
 const fontMono = Geist_Mono({
@@ -28,7 +30,9 @@ export default function RootLayout({
       )}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <LayoutDashboard>{children}</LayoutDashboard>
+        </ThemeProvider>
       </body>
     </html>
   )

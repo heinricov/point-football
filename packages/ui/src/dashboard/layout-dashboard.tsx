@@ -1,7 +1,7 @@
-import { AppSidebar } from "./app-sidebar.js"
-import { SiteHeader } from "./site-header.js"
+import { AppSidebar } from "@workspace/ui/dashboard/app-sidebar"
+import { SiteHeader } from "@workspace/ui/dashboard/site-header"
+import { TooltipProvider } from "@workspace/ui/providers/tooltip-provider"
 import { SidebarInset, SidebarProvider } from "@workspace/ui/components/sidebar"
-import { TooltipProvider } from "@workspace/ui/providers/tooltip-provider.js"
 
 export const iframeHeight = "800px"
 
